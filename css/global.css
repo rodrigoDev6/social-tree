@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body{
+  display: grid;
+  place-items:center ;
+  height: 100vh;
+}
+
+/* CONTAINER */
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 20rem;
+  margin: auto;
+}
+
+/* IMAGE USER */
+.image-user{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.image-user img{
+  width: 10rem;
+  height: 10rem;
+
+  clip-path: circle(50% at 50% 50%);
+  
+}
+
+.image-user a{
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+/* CARDS LINKS */
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-content:  center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.card-link {
+  display: flex;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+  height: auto;
+  width: 100%;
+}
+
+
+
+.card-link a {
+  margin: 0 auto;
+  padding: 0.8rem;
+  width: 100%;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* SOCIAL MEDIA ICONS */
+.icons-link{
+  display:flex;
+  width: 10rem;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+
